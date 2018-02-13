@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   end
   resources :songs
 
-  root :to => song#index
+  root :to => 'song#index'
 end
